@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanaimö - Salto Ángel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/styles_canaima.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <header class="header">
+                <div class="overlay"></div>
+                <nav>
+                    <ul>
+                        <li><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li><a class="nav-link" href="canaima.html">Canaima</a></li>
+                        <li><a id="activa" class="nav-link" href="saltoangel.html">Salto Ángel</a></li>
+                        <li><a class="nav-link" href="roraima.html">Roraima</a></li>
+                        <li><a class="nav-link" href="galeria.html">Galería</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>  
+        <div class="row">
+            <div class="col-md-4">
+                <h1 style="font-size: 80px;">Kerepakupai Vená</h1>
+                <h5>El Salto Ángel</h5>
+            </div>
+            <div class="col-md-8">
+                <!-- <p>
+                    El Parque Nacional Canaima es un parque nacional ubicado en el estado Bolívar, Venezuela. Fue instaurado el 12 de junio de 1962 y declarado Patrimonio de la Humanidad por la Unesco en el año 1994. <br><br>
+
+                    Se extiende sobre 30 000 km² hasta la frontera con Guyana y Brasil, por su tamaño es considerado el decimoquinto parque nacional más grande del mundo. Cerca de 65% del parque está ocupado por mesetas rocosas, llamadas tepuyes. Estos constituyen un medio biológico único, presentando también un gran interés geológico. Sus acantilados escarpados y sus caídas de agua (incluyendo el Salto Ángel, que es la caída de agua más elevada del mundo, a 1283 m).
+                </p> -->
+                <div id="text-slider" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <h3>
+                            El Salto Ángel (en pemón: Kerepakupai vená que significa «salto del lugar más profundo»), también llamado el mundo perdido es la cascada más alta del mundo, con una altura de 979 m (807 m de caída ininterrumpida), originada en el Auyantepuy. <br><br>
+                            También es conocido erróneamente como Churún-Merú (cuando lo correcto en lengua pemona sería Kerepakupai vená, del río Kerepakupai que da origen al salto y el cual es tributario del río Churún), Churum Meru es el nombre que corresponde en realidad al salto del río Churum en el mismo Tepuy, de unos 400 m de altura y a una distancia aproximada de 11 km del Salto Ángel.
+                        </h3>
+                      </div>
+                      <div class="carousel-item">
+                        <h3>
+                            El primer explorador extranjero en llegar al río que alimenta las cataratas, en zona habitada por los pemones, fue el letón Aleksandrs Laime, quien escaló el Auyantepui en 1955. Bautizó al río como Gauja, en homenaje al homónimo curso de agua de Letonia, al desconocer el nombre Kerepakupai como lo conocían las tribus indígenas de la etnia Pemon aledañas al Auyentepui.
+                            <br><br>
+                            Laime fue la primera persona documentada en recorrer el sendero que conduce desde el río Churun a la base de las cataratas. En el camino hay un punto geográfico que suele usarse para fotografiar las caídas, y es llamado "Mirador Laime" en su "honor". Este camino lo recorren ahora la mayoría de los turistas desde el campamento de Isla Ratón.
+                        </h3>
+                      </div>
+                      <div class="carousel-item">
+                        <h3>
+                            Este salto fue la inspiración de la ficticia selva en la película animada estadounidense del año 2009 de Disney Pixar galardonada con dos premios Óscar, llamada Up (en Hispanoamérica Up: Una aventura de altura), cuando se menciona que la casa debe ponerse en este lugar; en la película es llamado «Paradise Falls» (en español «Salto Paraíso») o («Cataratas del Paraíso») en clara alusión o referencia al "Salto Ángel".
+                            <br><br>
+                            Igualmente gran parte de los paisajes de la ficticia luna Pandora, en la película de ciencia ficción del año 2009 Avatar de James Cameron (premiada con varios Óscar), fueron inspirados por el Salto Ángel, el Auyantepuy y en los paisajes del parque nacional Canaima en general.
+                        </h3>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#text-slider" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#text-slider" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var textSlider = new bootstrap.Carousel(document.getElementById('text-slider'), {
+          interval: 15000});
+      </script>
+</body> 
+</html>
