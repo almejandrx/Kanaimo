@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanaimö - Roraima</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/styles_canaima.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <header class="header">
+                <div class="overlay"></div>
+                <nav>
+                    <ul>
+                        <li><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li><a class="nav-link" href="canaima.html">Canaima</a></li>
+                        <li><a class="nav-link" href="saltoangel.html">Salto Ángel</a></li>
+                        <li><a id="activa" class="nav-link" href="roraima.html">Roraima</a></li>
+                        <li><a class="nav-link" href="galeria.html">Galería</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>  
+        <div class="row">
+            <div class="col-md-4">
+                <h1>Roroi-ma</h1>
+                <h5>Madre de Todas las Aguas</h5>
+            </div>
+            <div class="col-md-8">
+                <!-- <p>
+                    El Parque Nacional Canaima es un parque nacional ubicado en el estado Bolívar, Venezuela. Fue instaurado el 12 de junio de 1962 y declarado Patrimonio de la Humanidad por la Unesco en el año 1994. <br><br>
+
+                    Se extiende sobre 30 000 km² hasta la frontera con Guyana y Brasil, por su tamaño es considerado el decimoquinto parque nacional más grande del mundo. Cerca de 65% del parque está ocupado por mesetas rocosas, llamadas tepuyes. Estos constituyen un medio biológico único, presentando también un gran interés geológico. Sus acantilados escarpados y sus caídas de agua (incluyendo el Salto Ángel, que es la caída de agua más elevada del mundo, a 1283 m).
+                </p> -->
+                <div id="text-slider" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <h3>
+                            El monte Roraima, también conocido como tepuy Roraima, cerro Roraima o simplemente Roraima, con 2810 m s. n. m., es el punto más alto de la cadena de mesetas tepuyes (montañas tabulares) de la sierra de Pacaraima. <br><br>
+                            El monte Roraima se encuentra en el Escudo guayanés, en el sureste del parque nacional Canaima (de 30 000 km²) en Venezuela, siendo la meseta más alta de la cordillera, y se considera junto a los otros tepuyes una de las formaciones geológicas más antiguas de la Tierra, que se remonta a unos dos mil millones de años, en el Precámbrico. En el Tepuy se encuentra el punto más alto de Guyana, y también del estado brasileño de Roraima.
+                        </h3>
+                      </div>
+                      <div class="carousel-item">
+                        <h3>
+                            Es el punto más alto en un radio de 549.44 kilómetros. El vecino siguiente en tamaño es el cerro Marahuaca, hacia el oeste-sur-oeste. La altura promedio de la meseta es de unos 2500 m s. n. m., y sus paredes verticales dificultan enormemente el acceso. <br><br> Sin embargo, Roraima fue el primero de los grandes tepuyes en ser ascendido: Everard im Thurn trepó por sus laderas en 1884 a través de una rampa boscosa similar a una escalera, adosada lateralmente a la pared de la meseta. Los reportes de expediciones de la época victoriana a esta montaña inspiraron a Arthur Conan Doyle para escribir en 1912 su clásica novela de aventuras El mundo perdido, de la cual se han realizado varias versiones cinematográficas.
+                        </h3>
+                      </div>
+                      <div class="carousel-item">
+                        <h3>
+                            El origen de la palabra Roraima no está bien definido. Los primeros exploradores en el área encontraron que muchos pemones locales se referían a esta montaña como «la madre de todas las aguas», nombre muy apropiado debido a que desde su cima caen numerosas cascadas de agua, las cuales son la fuente de algunos ríos que fluyen hacia el Orinoco, el Esequibo o el Amazonas. <br><br>
+
+                            Su nombre se deriva de dos palabras en la lengua pemón: roro ('verde-azulado') e ima ('gran'). Por lo tanto el significado de Roraima, dependiendo de la traducción que se haga del pemón, puede ser 'gran verde-azulado', aunque también puede ser 'roca rodante' o 'fecunda madre de los torrentes'.
+                        </h3>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#text-slider" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#text-slider" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var textSlider = new bootstrap.Carousel(document.getElementById('text-slider'), {
+          interval: 15000});
+      </script>
+</body> 
+</html>
